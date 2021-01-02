@@ -1,0 +1,42 @@
+body {
+    font-family: $openSans;
+    font-size: 14px;
+   
+}
+.intro {
+    margin-bottom: 130px;
+    background-color: $darkBlueIntro;
+    background-image: url('/images/bg-curvy-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 50% bottom;
+    text-align: center;
+
+    @media (min-width: 1024px) {
+        margin-bottom: 160px;
+        background-image: url('/images/bg-curvy-desktop.svg');
+    }
+}
+.copy {
+    padding: 80px 70px;
+    line-height: 1.7;
+
+    @media (min-width: 1024px) {
+        padding: 50px 257px;
+    }
+
+}
+h1 {
+    font-size: 28px;
+}
+a.cta_button {
+    display: inline-block;
+    margin-top: 26px;
+    padding: 20px;
+    min-width: 250px;
+    background-color: $cyan;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 700;
+    
+}

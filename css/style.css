@@ -1,0 +1,85 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #181F2A;
+  color: #ffffff;
+  line-height: 1.3;
+}
+
+header {
+  padding: 80px;
+  background-color: #1C2431;
+}
+
+header .menu {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+}
+
+header ul > :last-child {
+  margin-right: 0px;
+}
+
+header li {
+  display: inline;
+  margin-right: 50px;
+}
+
+a {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #0B1523;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.intro {
+  margin-bottom: 130px;
+  background-color: #1C2431;
+  background-image: url("/images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 50% bottom;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    margin-bottom: 160px;
+    background-image: url("/images/bg-curvy-desktop.svg");
+  }
+}
+
+.copy {
+  padding: 80px 70px;
+  line-height: 1.7;
+}
+
+@media (min-width: 1024px) {
+  .copy {
+    padding: 50px 257px;
+  }
+}
+
+h1 {
+  font-size: 28px;
+}
+
+a.cta_button {
+  display: inline-block;
+  margin-top: 26px;
+  padding: 20px;
+  min-width: 250px;
+  background-color: #65E2D9;
+  border-radius: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
