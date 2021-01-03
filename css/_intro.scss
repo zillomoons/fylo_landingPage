@@ -1,0 +1,14 @@
+.intro {
+    margin-bottom: 130px;
+    background-color: $intro_bg;
+    background-image: url('/images/bg-curvy-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 50% bottom;
+    text-align: center;
+
+    @include breakpoint(large) {
+        margin-bottom: 160px;
+        background-image: url('/images/bg-curvy-desktop.svg');
+    }
+}

@@ -1,22 +1,5 @@
-body {
-    font-family: $openSans;
-    font-size: 14px;
-   
-}
-.intro {
-    margin-bottom: 130px;
-    background-color: $darkBlueIntro;
-    background-image: url('/images/bg-curvy-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right 50% bottom;
-    text-align: center;
 
-    @media (min-width: 1024px) {
-        margin-bottom: 160px;
-        background-image: url('/images/bg-curvy-desktop.svg');
-    }
-}
+
 .copy {
     padding: 80px 70px;
     font-size: 18px;
