@@ -1,14 +1,41 @@
 .intro {
-    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: $intro_bg;
     background-image: url('/images/bg-curvy-mobile.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right 50% bottom;
+    background-position: right bottom;
     text-align: center;
-
+    
     @include breakpoint(large) {
-        margin-bottom: 160px;
-        background-image: url('/images/bg-curvy-desktop.svg');
+            
+            
+            background-image: url('/images/bg-curvy-desktop.svg');
+        }
+
+    img {
+        width: 100%;
+        max-width: 44.75rem;
     }
+    h1 {
+        max-width: 42.375rem;
+        font-size: 1.5em;
+    }
+    p {
+        max-width: 36.5625rem;
+    }
+}
+
+a.cta_button {
+    display: inline-block;
+    padding: 1.25rem;
+    min-width: 250px;
+    background: linear-gradient(to right, $cyan, $blue);
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+    
 }
