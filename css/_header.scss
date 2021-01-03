@@ -1,0 +1,21 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logo navbar";
+    background-color: $intro_bg;
+    font-family: $font-title;
+    font-size: 1em;
+
+}
+.logo {
+    grid-area: logo;
+}
+.menu {
+    display: inline;
+    margin-right: 50px;
+    grid-area: navbar;
+    text-align: right;
+}
+ul>:last-child {
+    margin-right: 0;
+}
