@@ -22,13 +22,19 @@
     h1 {
         max-width: 42.375rem;
         font-size: 1.5em;
+        line-height: 1.5;
+        margin: 1.1em 0;
     }
     p {
         max-width: 36.5625rem;
+        margin-bottom: 1.5em;
+    }
+    button {
+        margin-top: 0.5em;
     }
 }
 
-a.cta_button {
+/*a.cta_button {
     display: inline-block;
     padding: 1.25rem;
     min-width: 250px;
@@ -38,4 +44,4 @@ a.cta_button {
     font-weight: 700;
     font-size: 1rem;
     
-}
+}*/

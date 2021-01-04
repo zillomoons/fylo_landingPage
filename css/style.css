@@ -25,8 +25,31 @@ h1, h2, h3 {
   font-family: "Raleway", sans-serif;
 }
 
+p {
+  margin-top: 0px;
+}
+
 section {
-  padding: 0 27px;
+  padding: 0 27px 160px;
+}
+
+button {
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#65E2D9), to(#339ECC));
+  background: linear-gradient(to right, #65E2D9, #339ECC);
+  border-radius: 40px;
+  padding: 20px;
+  width: 100%;
+  max-width: 285px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.65em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#339ECC), to(#339ECC));
+  background: linear-gradient(to right, #339ECC, #339ECC);
 }
 
 header {
@@ -71,6 +94,10 @@ header a {
   }
 }
 
+header a:hover {
+  text-decoration: underline;
+}
+
 .intro {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -104,24 +131,30 @@ header a {
 .intro h1 {
   max-width: 42.375rem;
   font-size: 1.5em;
+  line-height: 1.5;
+  margin: 1.1em 0;
 }
 
 .intro p {
   max-width: 36.5625rem;
+  margin-bottom: 1.5em;
 }
 
-a.cta_button {
-  display: inline-block;
-  padding: 1.25rem;
-  min-width: 250px;
-  background: -webkit-gradient(linear, left top, right top, from(#65E2D9), to(#339ECC));
-  background: linear-gradient(to right, #65E2D9, #339ECC);
-  border-radius: 40px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 1rem;
+.intro button {
+  margin-top: 0.5em;
 }
 
+/*a.cta_button {
+    display: inline-block;
+    padding: 1.25rem;
+    min-width: 250px;
+    background: linear-gradient(to right, $cyan, $blue);
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+    
+}*/
 footer {
   background-color: #0B1523;
 }
