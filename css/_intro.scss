@@ -9,9 +9,7 @@
     background-position: right bottom;
     text-align: center;
     
-    @include breakpoint(large) {
-            
-            
+    @include breakpoint(medium) {      
             background-image: url('/images/bg-curvy-desktop.svg');
         }
 
