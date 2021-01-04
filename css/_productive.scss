@@ -1,0 +1,38 @@
+.productive {
+   
+    
+    .productive_container {
+        max-width: 67rem;
+        margin: 0 auto;
+
+        @include breakpoint(large){
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 3vw;
+            margin-bottom: 2rem;
+            padding: 2rem;
+    }
+
+    img {
+        width: 100%;
+        text-align: center;
+    }
+    .copy_container {
+        
+        @include breakpoint(large){
+            padding-right: 4rem;
+        }
+       
+        h2 {
+            font-size: 1.25em;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+    
+
+    }
+    
+}
